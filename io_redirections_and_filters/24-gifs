@@ -1,2 +1,2 @@
 #!/bin/bash
-./find_gifs.sh | LC_ALL=C sort -f
+find . -type f \( -iname '*.gif' \) -exec basename {} \; | sed 's/\.[Gg][Ii][Ff]$//' | LC_ALL=C sort -f
