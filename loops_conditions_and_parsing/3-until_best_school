@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# it is dispalying best school
+
 var="Best School"
 i="1"
 until [ $i -eq 11 ];
